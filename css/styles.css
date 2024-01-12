@@ -37,6 +37,10 @@ img {display: block;}
   text-decoration: none;
   margin-right: 76px;
 }
+.span-class {
+  color: var(--logo-titles-color);
+  margin-right: 76px;
+}
 
 .link {
   text-decoration: none;
@@ -44,10 +48,6 @@ img {display: block;}
   margin-bottom: 16px;
 }
 
-.span-class {
-  color: var(--logo-titles-color);
-  margin-right: 76px;
-}
 
 .list {
   list-style: none;
@@ -138,10 +138,10 @@ img {display: block;}
 
 }
 .hero {
-  background-color: var(--logo-titles-color);
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: var(--logo-titles-color);
 }
 
 .hero-title {
